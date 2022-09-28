@@ -3,7 +3,7 @@ import pyray as ray
 screen_width = 800
 screen_height = 600
 
-menu = ray.Rectangle(0,0,screen_width,200)
+menu = ray.Rectangle(0,0,screen_width,screen_height//3)
 menu.y = screen_height - menu.height
 
 enemy = ray.Rectangle(0,0,100,100)
